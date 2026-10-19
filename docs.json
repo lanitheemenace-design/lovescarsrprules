@@ -1,0 +1,73 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Love Scars RP",
+  "description": "The official Love Scars Roleplay community guide",
+  "colors": {
+    "primary": "#FF2D95",
+    "light": "#FF5DBA",
+    "dark": "#FF4A6B"
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
+  },
+  "logo": {
+    "light": "/images/love-scars-logo.png",
+    "dark": "/images/love-scars-logo.png"
+  },
+  "favicon": "/images/favicon.png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Home",
+        "pages": [
+          "index",
+          "getting-started/welcome",
+          "getting-started/faq"
+        ]
+      },
+      {
+        "tab": "City Rules",
+        "groups": [
+          {
+            "group": "Community Standards",
+            "pages": [
+              "rules/community",
+              "rules/roleplay",
+              "rules/enforcement"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Departments",
+        "pages": [
+          "departments/overview",
+          "departments/police",
+          "departments/ems"
+        ]
+      },
+      {
+        "tab": "Businesses",
+        "pages": [
+          "businesses/overview",
+          "businesses/licensing"
+        ]
+      },
+      {
+        "tab": "Community",
+        "pages": [
+          "community/support",
+          "community/appeals"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": []
+  },
+  "footer": {
+    "socials": {}
+  }
+}
